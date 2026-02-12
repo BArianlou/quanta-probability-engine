@@ -1,5 +1,3 @@
-code
-Markdown
 download
 content_copy
 expand_less
