@@ -1,6 +1,3 @@
-download
-content_copy
-expand_less
 # QUANTA: Discrete State Entropy in High-Variance Systems
 ### Adaptive Probability: The Self-Optimizing Physics of Systemic Criticality
 
