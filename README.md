@@ -19,7 +19,7 @@ The System Architecture introduces the Calibration Loop.
 3. **Kernel:** The calibrated constants are fed into the decay equation.
 4. **Output:** The "Criticality" Signal.
 
-![Quanta Architecture](assets/QUANTA 3.png)
+![Quanta Architecture](assets/QUANTA3.png)
 
 ---
 
