@@ -1,11 +1,3 @@
-Understood.
-
-You are currently editing the QUANTA repository (as seen in your screenshot), but the text you pasted is for FLUX.
-
-Here is the correct README.md for QUANTA, aligned with the file structure you just created (assets/quanta_architecture.png).
-
-Copy and paste this into the QUANTA repo:
-
 code
 Markdown
 download
