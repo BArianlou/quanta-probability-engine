@@ -1,70 +1,65 @@
-# QUANTA: Discrete State Entropy in High-Variance Systems
-### Adaptive Probability: The Self-Optimizing Physics of Systemic Criticality
+# FLUX v2.0: The Kinetic-Entropy Protocol
+### Cybernetic Simulation Engine for High-Variance Adversarial Systems
 
 ![Status](https://img.shields.io/badge/Status-Deployed-green) ![License](https://img.shields.io/badge/License-Proprietary-red)
 
 ## 1. Executive Abstract
-Traditional risk models rely on linear regression and static heuristics. They assume system decay is constant and "average" performance predicts future reliability. In high-variance environments, this assumption is the primary cause of model failure.
+Predictive modeling in zero-sum environments often fails because it relies on static regression. Real-world adversarial systems (markets, competitive gaming, logistics) are governed by **Non-Linear Decay**.
 
-**QUANTA** is a physics-based engine designed to model **Discrete State Decay**. Unlike static models, QUANTA utilizes a **Maximum Likelihood Estimation (MLE)** layer to mathematically derive friction coefficients from historical data in real-time. It models **Coupled System Decay**, proving that "Systemic Criticality" is not just an asset failure, but a system failure.
-
-**Validation:** Simulations confirm a **1.42 Unit Advantage** per crisis event by optimizing decision thresholds dynamically.
+**FLUX v2.0** is a dual-core simulation engine that models the tension between **Kinetic Force** (Efficiency/Power) and **Entropic Friction** (Resistance/Time). By simulating "Drift" and "Hysteresis," Flux identifies **Systemic Criticality**—the precise moment a system transitions from a stable "Grind" to a catastrophic "Snap."
 
 ---
 
-## 2. System Architecture (Closed Loop)
-The System Architecture introduces the Calibration Loop.
-1. **Input:** Raw Event Data (Telemetry).
-2. **Optimizer:** The engine runs historical simulations to minimize error via MLE.
-3. **Kernel:** The calibrated constants are fed into the decay equation.
-4. **Output:** The "Criticality" Signal.
+## 2. System Architecture
+Flux operates on a recursive feedback loop, continuously updating the system state based on the interaction between Kinetic Load and Environmental Variance.
 
-![Quanta Architecture](assets/quanta_architecture.png)
+![Flux Architecture](assets/flux_architecture_v2.png)
 
 ---
 
-## 3. The Physics Kernel (The 3 Laws)
-QUANTA treats every operation as a Discrete State Transition.
+## 3. The Physics Kernel
+The engine simulates three distinct phases of systemic decay:
 
-### Law I: Multiplicative Entropy
-Stress is defined by the environment.
-$$ \Delta S_t = \beta \cdot (1 + \mu + \epsilon) $$
-*Note: $\mu$ (Friction) and $\epsilon$ (Entropy) are learned parameters, not static guesses.*
+### Phase I: Entropic Drift (The Grind)
+Systems under load do not degrade linearly; they accumulate invisible friction.
+$$ D_{t+1} = D_t + (\alpha \cdot E_t) $$
+*Where $D$ is Drift and $E$ is Environmental Entropy.*
 
-### Law II: Hysteresis (Imperfect Recovery)
-Rest periods restore capacity, but never fully.
-$$ C_{t+1} = C_t + (L \cdot \alpha) - \delta $$
-*Where $\delta$ represents the permanent entropy loss per cycle.*
+### Phase II: Hysteresis (Imperfect Recovery)
+Rest periods restore capacity, but never to 100%. Permanent wear ($\delta$) accumulates.
+$$ S_{t+1} = S_t + R - \delta $$
 
-### Law III: Coupled Instability (The Chain)
-Failure in one node accelerates decay in connected nodes.
-$$ \Delta S_{node B} = \Delta S_{node A} \cdot \lambda_{COUPLING} $$
-*Application: When Subsystem A degrades, Subsystem B inherits a Systemic Stress Penalty ($\lambda$).*
+### Phase III: Feedback Amplification (The Snap)
+When the **Kinetic Mismatch** exceeds the **Critical Threshold (>20%)**, the system enters a failure cascade. The dominant force accelerates, while the resisting force collapses exponentially.
 
 ---
 
-## 4. Validation: The 1.42 Unit Advantage
-**Monte Carlo Simulation (N=5,000):**
-*   **Scenario:** High-load operational cycle at 59% structural integrity.
-*   **Legacy Decision (Heuristic):** Continue operation.
-*   **QUANTA Decision (Physics):** Swap or reallocate load.
+## 4. Operational Applications
+FLUX v2.0 is domain-agnostic, designed for any environment involving adversarial stress.
 
-**Results:**
-*   **Legacy Avg Loss:** 1.81 Units
-*   **QUANTA Avg Loss:** 0.39 Units
-*   **STRUCTURAL ALPHA:** **1.42 Units Saved Per Event**
+### A. Competitive Game Theory (Sports & Esports)
+*   **Problem:** Traditional models overvalue "Average Performance" and undervalue "Matchup Friction."
+*   **Flux Solution:** Simulates the **Suffocation Protocol**. It predicts when a defensive unit (High Entropy) will completely neutralize an offensive unit (Low Kinetics), turning a projected close match into a blowout.
+
+### B. Supply Chain Resilience
+*   **Problem:** Just-in-Time (JIT) networks look efficient until a single node fails.
+*   **Flux Solution:** Models **Coupled Instability**. It identifies which nodes have accumulated too much "Drift" and predicts where the chain reaction (The Snap) will occur days before the breakage.
+
+### C. Algorithmic Market Making
+*   **Problem:** Liquidity providers get run over during volatility spikes.
+*   **Flux Solution:** Distinguishes between **Noise** (Reversion) and **Trend** (The Snap). If Kinetic Flow > Entropic Resistance, Flux signals a "Breakout" rather than a "Reversion," preventing costly counter-trading.
 
 ---
 
 ## 5. Technical Specifications
-*   **Core Logic:** Python 3.9+
-*   **Optimization:** `scipy.optimize` (L-BFGS-B Solver)
-*   **Drift Detection:** Adaptive Thresholding via Z-Score
-*   **Integration:** REST API / WebSockets
+*   **Simulation Core:** Python 3.9+ (NumPy / Pandas)
+*   **Logic:** Recursive State Machine (RSM)
+*   **Time-Weighting:** Exponential Accumulator (Q1-Q4 Scaling)
+*   **Guardrails:** Behavioral Override Logic (Scoreboard Validation)
 
 ---
 
 ## 6. Access & Licensing
-The source code for the QUANTA Kernel, including the MLE Optimization Layer, is proprietary intellectual property. 
+The source code for the FLUX v2.0 Kernel, including the Suffocation Protocol logic, is proprietary intellectual property.
 
 Technical auditing and licensing inquiries: **[Link to your LinkedIn]**
