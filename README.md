@@ -13,7 +13,7 @@ Predictive modeling in zero-sum environments often fails because it relies on st
 ## 2. System Architecture
 Flux operates on a recursive feedback loop, continuously updating the system state based on the interaction between Kinetic Load and Environmental Variance.
 
-![Flux Architecture](assets/flux_architecture_v2.png)
+![Flux Architecture](assets/flux_architecture.png)
 
 ---
 
